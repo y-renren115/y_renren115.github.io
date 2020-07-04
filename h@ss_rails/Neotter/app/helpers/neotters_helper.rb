@@ -1,0 +1,2 @@
+module NeottersHelper
+end

@@ -1,0 +1,2 @@
+class Neott < ApplicationRecord
+end

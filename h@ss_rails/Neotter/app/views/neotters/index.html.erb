@@ -1,0 +1,14 @@
+<div class="contents">
+ <% @neotters.each do |neot| %>
+  <div class="message clearfix">
+    <%= image_tag 'cat1.png' %>
+     <div class="message_box">
+      <p class="user_name">
+        野良猫1号
+      <p>
+      <%= neot.text %>
+    </div>
+  </div>
+ <%  end %>
+</div>
+
