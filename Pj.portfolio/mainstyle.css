@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 150vh;
+}
+
+.header {
+ height: 30vh;
+ width: 100%;
+ background-image: url("images/whiteback.jpg");
+ border-bottom: 3px solid black;
+}
+
+.header h1 {
+  height: 30vh; 
+  font-size: 50px;
+  margin-top: 0;
+  line-height: 30vh;
+  text-align: center;
+}
+
+.navigate {
+  height: 10vh;
+  width: 100%;
+  background-image: url("images/squarewhite.jpg");
+}
+
+.navigate ul {
+  margin: 0;
+  text-align: center;
+}
+
+.navigate ul li {
+  display: inline-block;
+  line-height: 10vh;
+  margin: 0 70px;
+  list-style: none;
+  /* border: 1px solid black; */
+}
+
+.navigate ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
