@@ -3,7 +3,7 @@
 }
 
 body {
-  height: 150vh;
+  /* height: 150vh; */
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
 .navigate {
   height: 10vh;
   width: 100%;
-  background-image: url("images/squarewhite.jpg");
+  background-color: black;
   border-bottom: 3px solid black;
 }
 
@@ -45,7 +45,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 .about_this_site {
@@ -53,6 +53,7 @@ body {
   width: 100%;
   background-image: url("images/hisiwhite.jpg");
   background-size: cover;
+  border-bottom: 3px solid black;
 }
 
 .about_this_site h1 {
@@ -69,3 +70,82 @@ body {
   padding: 50px;
 }
 
+.about_profile {
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("images/white3.jpeg");
+  /* 以下三行list中央揃え */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3px solid black;
+}
+
+.about_profile h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.about_profile ul {
+}
+
+.about_profile ul li {
+  padding-top: 20px;
+}
+
+.about_skill {
+  height: 80vh;
+  width: 100%;
+  background-image: url("images/zarawhite.jpeg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about_skill h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.about_skill ul {
+  padding-top: 50px;
+}
+
+
+.about_skill ul li {
+  padding-top: 30px;
+  font-size: 23px;
+}
+
+.about_contact {
+  height: 60vh;
+  width: 100%;
+  background-image: url("images/wavewhite.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about_contact h1 {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about_contact ul {
+  padding-top: 30px;
+}
+
+.about_contact ul li {
+  padding-top: 30px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.about_contact ul li a {
+  font-size: 20px;
+}
