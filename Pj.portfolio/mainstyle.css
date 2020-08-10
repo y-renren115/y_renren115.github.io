@@ -25,6 +25,7 @@ body {
   height: 10vh;
   width: 100%;
   background-image: url("images/squarewhite.jpg");
+  border-bottom: 3px solid black;
 }
 
 .navigate ul {
@@ -45,5 +46,26 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: black;
+}
+
+.about_this_site {
+  height: 70vh;
+  width: 100%;
+  background-image: url("images/hisiwhite.jpg");
+  background-size: cover;
+}
+
+.about_this_site h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.about_this_site p {
+  width: 55%;
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px;
 }
 
