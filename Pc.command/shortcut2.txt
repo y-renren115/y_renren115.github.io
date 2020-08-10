@@ -1,4 +1,0 @@
-カーソル移動
-ctrl + F or B or P or N
- 行の前後に移動
- ctlr + A , E
