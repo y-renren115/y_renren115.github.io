@@ -48,8 +48,13 @@ body {
   color: white;
 }
 
+.navigate ul li a:hover {
+  color: grey;
+  cursor: pointer;
+}
+
 .about_this_site {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   background-image: url("images/hisiwhite.jpg");
   background-size: cover;
@@ -59,11 +64,11 @@ body {
 .about_this_site h1 {
   margin: 0 auto;
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 40px 0;
 }
 
 .about_this_site p {
-  width: 55%;
+  width: 65%;
   margin: 0 auto;
   font-size: 25px;
   text-align: center;
@@ -102,6 +107,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-bottom: 3px solid black;
 }
 
 .about_skill h1 {
@@ -132,7 +138,7 @@ body {
 
 .about_contact h1 {
   margin: 0 auto;
-  padding: 50px 0;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -141,11 +147,55 @@ body {
 }
 
 .about_contact ul li {
-  padding-top: 30px;
+  padding: 30px 0;
   list-style: none;
   font-size: 20px;
 }
 
 .about_contact ul li a {
   font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
+
+.about_contact ul li a:hover {
+ opacity: 0.3;
+ cursor: pointer;
+}
+
+
+
+.footer {
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+}
+
+.footer h1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.footer h2 {
+  margin: 0 auto;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer .btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px 0;
+  width: 5%;
+  text-align: center;
+  border: 3px solid white;
+} 
+
+.footer .btn a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+} 
