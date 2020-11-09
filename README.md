@@ -6,6 +6,7 @@
 ## docsについて
 - LP・Webサイト作成の学習アウトプットとして作成したマイページを格納したディレクトリになっています。github pagesで公開しているの
   で、宜しければアクセスしてご覧ください。
+  サイトURL: [lotushass15.github.io/](lotushass15.github.io/)
 
 ## HTML_CSSについて
  
